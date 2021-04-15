@@ -11,11 +11,12 @@ CREATE TABLE students (
 
 #СОЗДАЁМ ТАБЛИЦУ ЖУРНАЛ, КОТОРАЯ ХРАНИТ ОЦЕНКИ ВСЕХ СТУДЕНТОВ ИЗ ВСЕХ ГРУПП
 CREATE TABLE marks (
-	id_stud INT,
-	object VARCHAR(64) PRIMARY KEY,
-    teacher VARCHAR(64) PRIMARY KEY,
-    data_mark date PRIMARY KEY,
+    id_stud INT,
+    object VARCHAR(64),
+    teacher VARCHAR(64),
+    data_mark date,
     mark VARCHAR(4),
+    CONSTRAINT pk PRIMARY KEY (id_stud, object, teacher, data_mark),
     FOREIGN KEY (id_stud) REFERENCES students(id) ON DELETE CASCADE
 );
 
@@ -68,7 +69,7 @@ INSERT INTO marks(id_stud, object, teacher, data_mark, mark)
 INSERT INTO marks(id_stud, object, teacher, data_mark, mark) 
 	VALUES (4, 'Математека', 'Оскаленко', '2021-04-10', '5');
 INSERT INTO marks(id_stud, object, teacher, data_mark, mark) 
-	VALUES (8, 'Математека', 'Оскаленко', '2021-04-10', '4');
+	VALUES (8, 'Математека', 'Оскаленко', '2021-04-11', '4');
 INSERT INTO marks(id_stud, object, teacher, data_mark, mark) 
 	VALUES (2, 'Информатика', 'Попова', '2021-04-10', '3');
 INSERT INTO marks(id_stud, object, teacher, data_mark, mark) 
