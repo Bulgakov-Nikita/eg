@@ -19,6 +19,7 @@ CREATE TABLE marks (
     FOREIGN KEY (id_stud) REFERENCES students(id) ON DELETE CASCADE
 );
 
+# Заполнение таблицы (Булгаков Никита)
 INSERT INTO students(FIO, gruppa, god_postyplenia) 
 	VALUES ('Попов Анатолий Григорьевич', 'КЭК', '2020-08-19');
 INSERT INTO students(FIO, gruppa, god_postyplenia) 
