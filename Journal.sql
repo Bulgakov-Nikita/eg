@@ -23,7 +23,7 @@ CREATE TABLE marks (
 INSERT INTO students(FIO, gruppa, god_postyplenia) 
 	VALUES ('Попов Анатолий Григорьевич', 'КЭК', '2020-08-19');
 INSERT INTO students(FIO, gruppa, god_postyplenia) 
-	VALUES ('Татанов Борис Иванович', 'КЭК', '2020-08-28');
+	 VALUES ('Татанов Борис Иванович', 'КЭК', '2020-08-28');
 INSERT INTO students(FIO, gruppa, god_postyplenia) 
 	VALUES ('Смирнов Павел Анатольевич', 'КПСО', '2020-08-24');
 INSERT INTO students(FIO, gruppa, god_postyplenia) 
@@ -65,3 +65,11 @@ INSERT INTO marks(id_stud, object, teacher, data_mark, mark)
 	VALUES (5, 'Английский', 'Провоторова', '2021-04-10', '4');
 
 
+# Заполняем таблицу (Алексей Долгов) 
+INSERT INTO students(FIO, gruppa, god_postyplenia) VALUES ("А.Б Рукин", "КПИ", "2017/09/01");#id = 1
+INSERT INTO students(FIO, gruppa, god_postyplenia) VALUES ("В.В Гагарин", "КПСО", "2018/09/01");#id = 2
+
+INSERT INTO marks VALUES ('1', "Математика", "Оскаленко", "2017/09/08", "5"); #id = 1
+INSERT INTO marks VALUES ('1', "Русский язык", "Зайцева", "2017/09/05", "5"); #id = 1
+INSERT INTO marks VALUES ('2', "История", "Краснослободцев", "2018/09/06", "4"); #id = 2
+INSERT INTO marks VALUES ('2', "Астрономия", "Коновалов", "2018/09/08", "5"); #id = 2
