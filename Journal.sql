@@ -72,7 +72,7 @@ insert into students values ('В.И.Макхов', 'КПИ', '2019-08-18');
 insert into students values ('К.Р.Клюев', 'КЭК', '2016-08-18');
 insert into students values ('О.К.Серов', 'КПИ', '2020-08-18');
 insert into marks values (1, 'Математика', 'Оскаленко', '2021/06/09', '5');
-insert into marks values (2, 'Математика', '4', 'Оскаленко', '2021/06/09');
+insert into marks values (2, 'Математика', 'Оскаленко', '2021/06/09', '4');
 insert into marks values (3, 'Математика', 'Оскаленко', '2021/06/10', '4');
 insert into marks values (4, 'Математика', 'Оскаленко', '2021/06/07', '5');
 insert into marks values (5, 'Математика', 'Оскаленко', '2021/06/05', '3');
