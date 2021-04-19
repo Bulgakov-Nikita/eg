@@ -4,5 +4,10 @@
 В "журнал" хранятся оценки всех студентов.
 
 EER - diagram:
+
+
+
+
+
 ![Image alt](https://github.com/Bulgakov-Nikita/eg/raw/main/eer_jouarnal.png)
 
