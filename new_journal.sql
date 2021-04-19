@@ -45,6 +45,7 @@ CREATE TABLE lessons (
     homework TEXT,
     teachers_id INT,
     groups_id INT,
+    date_lesson DATETIME,
     FOREIGN KEY (objects_id) REFERENCES `objects`(id),
     FOREIGN KEY (teachers_id) REFERENCES teachers(id),
     FOREIGN KEY (groups_id) REFERENCES `groups`(id)
