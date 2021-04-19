@@ -25,7 +25,7 @@ insert into students values (null, 'В.П.Горохов', 'КПИ', '2019-08-18
 insert into students values (null, 'К.А.Титов', 'КЭК', '2019-08-18');
 insert into students values (null, 'Д.Г.Лебедьев', 'КЭК', '2018-08-18');
 insert into students values (null, 'С.П.Фролов', 'КПСО', '2018-08-18');
-insert into stidents values (null, 'П.Н.Волков', 'КПСО', '2020-08-18');
+insert into students values (null, 'П.Н.Волков', 'КПСО', '2020-08-18');
 insert into students values (null, 'Д.В.Смернова', 'КЭК', '2020-08-18');
 insert into marks values (1, 'Математика', 'Оскаленко', '2021/03/11', '4');
 insert into marks values (2, 'Математика', 'Оскаленко', '2021/03/14', '4');
