@@ -50,7 +50,9 @@ CREATE TABLE lessons (
     FOREIGN KEY (teachers_id) REFERENCES teachers(id),
     FOREIGN KEY (groups_id) REFERENCES `groups`(id)
 );
-insert into teachers values
+
+# заполнение преподавателей
+INSERT INTO teachers VALUES
  (null,"Оскаленко"),
  (null,"Зайцева"),
  (null,"Абрамов"),
@@ -59,6 +61,8 @@ insert into teachers values
  (null,"Коновалов"),
  (null,"Провоторова"),
  (null,"Попова");
+ 
+ 
 INSERT INTO students VALUES ('Краснов Сергей Борисович', 1, '2019-08-20');
 INSERT INTO marks VALUES (7, 1, 1, '2021-04-10', '5');
 INSERT INTO marks VALUES (1, 2, 2, '2021-04-10', '4');
