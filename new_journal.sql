@@ -1,5 +1,5 @@
 CREATE DATABASE new_journal;
-USE new_joutnal;
+USE new_journal;
 
 # таблица с группами
 CREATE TABLE `groups` (
