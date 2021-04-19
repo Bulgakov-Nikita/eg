@@ -83,30 +83,30 @@ insert into marks values (3, 'Русский язык', 'Зайцева', '2021/
 insert into marks values (4, 'Русский язык', 'Зайцева', '2021/06/08', '5');
 insert into marks values (5, 'Русский язык', 'Зайцева', '2021/06/12', '4');
 insert into marks values (6, 'Русский язык', 'Зайцева', '2021/06/13', '4');
-insert into marks values (1, 'Литература', 'Зайцева', '2021/06/09', '4');
-insert into marks values (2, 'Литература', 'Зайцева', '2021/06/09', '5');
-insert into marks values (3, 'Литература', 'Зайцева', '2021/06/11', '3');
-insert into marks values (4, 'Литература', 'Зайцева', '2021/06/07', '3');
-insert into marks values (5, 'Литература', 'Зайцева', '2021/06/08', '5');
-insert into marks values (6, 'Литература', 'Зайцева', '2021/06/12', '4');
-insert into marks values (1, 'Английский язык', 'Провоторова', '2021/06/09', '5');
-insert into marks values (2, 'Английский язык', 'Провоторова', '2021/06/12', '5');
-insert into marks values (3, 'Английский язык', 'Провоторова', '2021/06/07', '5');
-insert into marks values (4, 'Английский язык', 'Провоторова', '2021/06/13', '4');
-insert into marks values (5, 'Английский язык', 'Провоторова', '2021/06/09', '5');
-insert into marks values (6, 'Английский язык', 'Провоторова', '2021/06/17', '4');
-insert into marks values (1, 'Информатика', 'Попова', '2021/06/17', '4');
-insert into marks values (2, 'Информатика', 'Попова', '2021/06/11', '5');
-insert into marks values (3, 'Информатика', 'Попова', '2021/06/11', '3');
-insert into marks values (4, 'Информатика', 'Попова', '2021/06/14', '5');
-insert into marks values (5, 'Информатика', 'Попова', '2021/06/15', '5');
-insert into marks values (6, 'Информатика', 'Попова', '2021/06/06', '4');
-insert into marks values (1, 'История', 'Краснослободцев', '2021/06/19', '4');
-insert into marks values (2, 'История', 'Краснослободцев', '2021/06/21', '5');
-insert into marks values (3, 'История', 'Краснослободцев', '2021/06/13', '5');
-insert into marks values (4, 'История', 'Краснослободцев', '2021/06/14', '5');
-insert into marks values (5, 'История', 'Краснослободцев', '2021/06/10', '4');
-insert into marks values (6, 'История', 'Краснослободцев', '2021/06/08', '3');
+insert into marks values (1, 8, 3, '2021/06/09', '4'); # Заменил предметы на id (Долгов Алексей)
+insert into marks values (2, 8, 3, '2021/06/09', '5');
+insert into marks values (3, 8, 3, '2021/06/11', '3');
+insert into marks values (4, 8, 3, '2021/06/07', '3');
+insert into marks values (5, 8, 3, '2021/06/08', '5');
+insert into marks values (6, 8, 3, '2021/06/12', '4');
+insert into marks values (1, 2, 7, '2021/06/09', '5');
+insert into marks values (2, 2, 7, '2021/06/12', '5');
+insert into marks values (3, 2, 7, '2021/06/07', '5');
+insert into marks values (4, 2, 7, '2021/06/13', '4');
+insert into marks values (5, 2, 7, '2021/06/09', '5');
+insert into marks values (6, 2, 7, '2021/06/17', '4');
+insert into marks values (1, 4, 8, '2021/06/17', '4');
+insert into marks values (2, 4, 8, '2021/06/11', '5');
+insert into marks values (3, 4, 8, '2021/06/11', '3');
+insert into marks values (4, 4, 8, '2021/06/14', '5');
+insert into marks values (5, 4, 8, '2021/06/15', '5');
+insert into marks values (6, 4, 8, '2021/06/06', '4');
+insert into marks values (1, 6, 4, '2021/06/19', '4');
+insert into marks values (2, 6, 4, '2021/06/21', '5');
+insert into marks values (3, 6, 4, '2021/06/13', '5');
+insert into marks values (4, 6, 4, '2021/06/14', '5');
+insert into marks values (5, 6, 4, '2021/06/10', '4');
+insert into marks values (6, 6, 4, '2021/06/08', '3'); 
 
 #Добавление данных в таблицу (Дмитрий Кошелев)
 INSERT INTO students(FIO, gruppa, god_postyplenia) VALUES ('В.Д. Безруков', 'КПСО', '2019/10/02');#id = 1
