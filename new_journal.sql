@@ -63,3 +63,7 @@ INSERT INTO teachers VALUES
  (null,"Попова");
  
  
+insert into `groups` values
+(1, 'КПИ'),
+(2, 'КЭК'),
+(3, 'КПСО');
