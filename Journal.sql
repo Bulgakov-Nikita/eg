@@ -174,3 +174,22 @@ INSERT INTO marks VALUES ('1', "Математика", "Оскаленко", "20
 INSERT INTO marks VALUES ('1', "Русский язык", "Зайцева", "2017/09/05", "5"); #id = 1
 INSERT INTO marks VALUES ('2', "История", "Краснослободцев", "2018/09/06", "4"); #id = 2
 INSERT INTO marks VALUES ('2', "Астрономия", "Коновалов", "2018/09/08", "5"); #id = 2
+
+#перенос
+INSERT INTO students VALUES ('Краснов Сергей Борисович', 1, '2019-08-20');
+INSERT INTO marks VALUES (7, 1, 1, '2021-04-10', '5');
+INSERT INTO marks VALUES (1, 2, 2, '2021-04-10', '4');
+INSERT INTO marks VALUES (8, 1, 1, '2021-04-10', '5');
+INSERT INTO marks VALUES (3, 8, 2, '2021-04-10', '3');
+INSERT INTO marks VALUES (4, 1, 1, '2021-04-10', '5');
+INSERT INTO marks VALUES (8, 1, 1, '2021-04-11', '4');
+INSERT INTO marks VALUES (2, 4, 8, '2021-04-10', '3');
+INSERT INTO marks VALUES (9, 4, 8, '2021-04-10', 'Н');
+INSERT INTO marks VALUES (5, 3, 7, '2021-04-10', '4');
+INSERT INTO students VALUES ("А.Б Рукин", 1, "2017/09/01");#id = 1
+INSERT INTO students VALUES ("В.В Гагарин", 3, "2018/09/01");#id = 2
+
+INSERT INTO marks VALUES ('1', 1, 1, "2017/09/08", "5"); #id = 1
+INSERT INTO marks VALUES ('1', 2, 2, "2017/09/05", "5"); #id = 1
+INSERT INTO marks VALUES ('2', 6, 4, "2018/09/06", "4"); #id = 2
+INSERT INTO marks VALUES ('2', 7, 6, "2018/09/08", "5"); #id = 2
