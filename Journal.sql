@@ -21,12 +21,12 @@ CREATE TABLE marks (
 );
 
 # Добавил Александр Рязанов, Гасанов
-insert into students values ('В.П.Горохов', '1', '2019-08-18');
-insert into students values ('К.А.Титов', '2', '2019-08-18');
-insert into students values ('Д.Г.Лебедьев', '2', '2018-08-18');
-insert into students values ('С.П.Фролов', '3', '2018-08-18');
-insert into stidents values ('П.Н.Волков', '3', '2020-08-18');
-insert into students values ('Д.В.Смернова', '2', '2020-08-18');
+insert into students values (null, 'В.П.Горохов', '1', '2019-08-18');#передал в 1 атрибут null(Кошелев)
+insert into students values (null, 'К.А.Титов', '2', '2019-08-18');
+insert into students values (null, 'Д.Г.Лебедьев', '2', '2018-08-18');
+insert into students values (null, 'С.П.Фролов', '3', '2018-08-18');
+insert into stidents values (null, 'П.Н.Волков', '3', '2020-08-18');
+insert into students values (null, 'Д.В.Смернова', '2', '2020-08-18');#END передал в 1 атрибут null(Кошелев)
 insert into marks values (1, '1', 1, '2021/03/11', '4');
 insert into marks values (2, '1', 1, '2021/03/14', '4');
 insert into marks values (3, '1', 1, '2021/03/18', '5');
