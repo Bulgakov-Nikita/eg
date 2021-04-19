@@ -88,7 +88,7 @@ insert into students values (null, 'В.П.Горохов', '1', '2019-08-18');
 insert into students values (null, 'К.А.Титов', '2', '2019-08-18');
 insert into students values (null, 'Д.Г.Лебедьев', '2', '2018-08-18');
 insert into students values (null, 'С.П.Фролов', '3', '2018-08-18');
-insert into stidents values (null, 'П.Н.Волков', '3', '2020-08-18');
+insert into students values (null, 'П.Н.Волков', '3', '2020-08-18');
 insert into students values (null, 'Д.В.Смернова', '2', '2020-08-18');
 insert into students values (null, 'А.Н.Дынин', 3, '2020-08-12');
 insert into students values (null, 'Д.В.Зайцев', 2, '2016-08-18');
