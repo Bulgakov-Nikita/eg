@@ -21,12 +21,12 @@ CREATE TABLE marks (
 );
 
 # Добавил Александр Рязанов
-insert into students values ('В.П.Горохов', 'КПИ', '2019-08-18');
-insert into students values ('К.А.Титов', 'КЭК', '2019-08-18');
-insert into students values ('Д.Г.Лебедьев', 'КЭК', '2018-08-18');
-insert into students values ('С.П.Фролов', 'КПСО', '2018-08-18');
-insert into stidents values ('П.Н.Волков', 'КПСО', '2020-08-18');
-insert into students values ('Д.В.Смернова', 'КЭК', '2020-08-18');
+insert into students values (null, 'В.П.Горохов', 'КПИ', '2019-08-18');
+insert into students values (null, 'К.А.Титов', 'КЭК', '2019-08-18');
+insert into students values (null, 'Д.Г.Лебедьев', 'КЭК', '2018-08-18');
+insert into students values (null, 'С.П.Фролов', 'КПСО', '2018-08-18');
+insert into stidents values (null, 'П.Н.Волков', 'КПСО', '2020-08-18');
+insert into students values (null, 'Д.В.Смернова', 'КЭК', '2020-08-18');
 insert into marks values (1, 'Математика', 'Оскаленко', '2021/03/11', '4');
 insert into marks values (2, 'Математика', 'Оскаленко', '2021/03/14', '4');
 insert into marks values (3, 'Математика', 'Оскаленко', '2021/03/18', '5');
@@ -65,12 +65,12 @@ insert into marks values (5, 'История', 'Краснослободцев',
 insert into marks values (6, 'История', 'Краснослободцев', '2021/03/13', '4');
 
 # Добавил Гасанов Элвин
-insert into students values ('А.Н.Дынин', 'КПСО', '2020-08-12');
-insert into students values ('Д.В.Зайцев', 'КЭК', '2016-08-18');
-insert into students values ('Г.Ю.Пчелов', 'КПСО', '2019-08-18');
-insert into students values ('В.И.Макхов', 'КПИ', '2019-08-18');
-insert into students values ('К.Р.Клюев', 'КЭК', '2016-08-18');
-insert into students values ('О.К.Серов', 'КПИ', '2020-08-18');
+insert into students values (null, 'А.Н.Дынин', 'КПСО', '2020-08-12');
+insert into students values (null, 'Д.В.Зайцев', 'КЭК', '2016-08-18');
+insert into students values (null, 'Г.Ю.Пчелов', 'КПСО', '2019-08-18');
+insert into students values (null, 'В.И.Макхов', 'КПИ', '2019-08-18');
+insert into students values (null, 'К.Р.Клюев', 'КЭК', '2016-08-18');
+insert into students values (null, 'О.К.Серов', 'КПИ', '2020-08-18');
 insert into marks values (1, 'Математика', 'Оскаленко', '2021/06/09', '5');
 insert into marks values (2, 'Математика', 'Оскаленко', '2021/06/09', '4');
 insert into marks values (3, 'Математика', 'Оскаленко', '2021/06/10', '4');
