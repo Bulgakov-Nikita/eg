@@ -8,13 +8,13 @@ WHERE gp.`name`="КЭК-2020" AND ob.`name`="Математика"
 AND ls.date_lesson BETWEEN '2021-01-09' AND '2021-06-20' GROUP BY FIO;
 
 # второй селект
-SELECT st.FIO, ob.`name` AS `Предмет`, gp.`name`, mk.mark, mk.date_mark 
-FROM students st JOIN marks mk ON st.id=mk.students_id
-JOIN `groups` gp ON st.groups_id=gp.id
-JOIN `objects` ob ON mk.objects_id=ob.id
-WHERE gp.`name`="КЭК" AND ob.`name`="Математика"
-AND mk.date_mark LIKE "2021%"
-ORDER BY mk.mark DESC;
+SELECT mark AS `Оценки`, date_lesson AS `Дата урока`, objects.`name` AS `Предмет`, `groups`.`name` AS `Группа`, FIO AS `ФИО` FROM marks 
+JOIN lessons ON marks.lessons_id = lessons.id
+JOIN objects ON lessons.objects_id = objects.id
+JOIN `groups` ON lessons.groups_id = `groups`.id
+JOIN students ON marks.students_id = students.id
+WHERE objects.`name` = 'Литература' AND `groups`.`name` = 'КПИ-2020' AND date_lesson BETWEEN '2021/03/11' AND '2021/03/18'
+ORDER BY mark DESC;
 
 # третий селект  
 SELECT DISTINCT teachers.`name` FROM teachers
