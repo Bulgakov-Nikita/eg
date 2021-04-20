@@ -4,26 +4,25 @@ USE new_journal;
 # таблица с группами
 CREATE TABLE `groups` (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	`name` VARCHAR(16)
+	`name` VARCHAR(16) not null
 );
 
 CREATE TABLE objects (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	`name` VARCHAR(24)
+	`name` VARCHAR(24) not null
 );
 
 # таблица преподавателей
 CREATE TABLE teachers (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	`name` VARCHAR(64)
+	`name` VARCHAR(64) not null
 );
 
-# таблица со студентами
 CREATE TABLE students (
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	FIO VARCHAR(64),
+	FIO VARCHAR(64) not null,
 	groups_id INT,
-	god_postypleniya DATETIME,
+	god_postupleniya DATETIME,
 	FOREIGN KEY (groups_id) REFERENCES `groups`(id)
 );
 
@@ -35,7 +34,7 @@ CREATE TABLE lessons (
 	homework TEXT,
 	teachers_id INT,
 	groups_id INT,
-	date_lesson DATETIME,
+	date_lesson DATETIME not null,
 	FOREIGN KEY (objects_id) REFERENCES `objects`(id),
 	FOREIGN KEY (teachers_id) REFERENCES teachers(id),
 	FOREIGN KEY (groups_id) REFERENCES `groups`(id)
