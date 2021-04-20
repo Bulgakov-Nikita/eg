@@ -16,8 +16,8 @@ WHERE gp.`name`="КЭК" AND ob.`name`="Математика"
 AND mk.date_mark LIKE "2021%"
 ORDER BY mk.mark DESC;
 
-# третий селект
-SELECT teachers.`name` FROM teachers
+# третий селект  
+SELECT DISTINCT teachers.`name` FROM teachers
 JOIN lessons ON teachers.id=lessons.teachers_id
 WHERE name_lesson IS NULL 
 AND date_lesson BETWEEN "2021-01-09" AND "2021-06-10";
