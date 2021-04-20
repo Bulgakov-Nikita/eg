@@ -44,15 +44,10 @@ CREATE TABLE lessons (
 # таблица с оценками
 CREATE TABLE marks(
 	id INT PRIMARY KEY AUTO_INCREMENT,
-	students_id INT,
-	objects_id INT,
-	teachers_id INT,
-	date_mark DATETIME,
+	students_id INT NOT NULL,
 	mark VARCHAR(4),
-	lessons_id INT,
+	lessons_id INT NOT NULL,
 	FOREIGN KEY (students_id) REFERENCES students(id),
-	FOREIGN KEY (objects_id) REFERENCES objects(id),
-	FOREIGN KEY (teachers_id) REFERENCES teachers(id),
 	FOREIGN KEY (lessons_id) REFERENCES lessons(id)
 );
 
